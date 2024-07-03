@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>
+         
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="./css/contact.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <i
+                    class="fa-sharp fa-solid fa-square"></i><h1>HARSH</h1><span>/WEB
+                    DEVELOPER</span>
+            </div>
+            <div class="main">
+                <i class="fa-solid fa-magnifying-glass"></i><input type="search"
+                    placeholder="Search...">
+                <i class="fa-solid fa-user"></i><span>Log In</span>
+            </div>
+            <div class="navbar ">
+                <ul>
+                    <li><a href="./index.html">ABOUT US</a></li>
+                    <li><a href="./resume.html" target="_parent">RESUME</a></li>
+                    <li><a href="./project.html">PROJECTS</a></li>
+                    <li><a href="./contact.html" class="active">CONTACT</a></li>
+                    <li><a href="#">MORE</a></li>
+                    <li><div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i><input
+                                type="search"
+                                placeholder="Search...">
+                            <i class="fa-solid fa-user"></i><span>Log In</span>
+                        </div></li>
+
+                </ul>
+            </div>
+            <div class="menu" id="menu-icon"><i
+                    class="fa-solid fa-bars"></i></div>
+        </header>
+        <!------------------ main ---------------------------->
+      <main>
+        <div class="heading"><i class="fa-sharp fa-solid fa-square"></i><h2>Get  in touch</h2></div>
+        <br><br>
+        <form action="" class="form">
+            <div class="name">
+                <div class="fname">
+                    <label for="fname">First Name <span id="req">*</span></label>
+                    <input type="text" id="fname" name="firstname" required>
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name <span id="req">*</span></label>
+                    <input type="text" id="lname" name="lastname" required>
+                </div>
+            </div>
+            <label for="email">E-mail <span id="req">*</span></label><br>
+            <input type="email" id="email"><br>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject"><br>
+            <label for="msg">Message</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+      </main>
+        <!------------------------footer-------------------------->
+
+        <div class="container">
+            <p>© 2024 by Harsh</p>
+            <div class="row">
+                <ul>
+                    <li><h5>Call</h5><a
+                            href="tel:+9871962203">9871962203</a></li>
+                    <li><h5>E-mail</h5><a
+                            href="mailto:hk3631311@gmmail.com">hk3631311@gmail.com</a></li>
+                    <li><h5>Follow</h5><a
+                            href="https://www.linkedin.com/in/harsh-21476b267/"
+                            target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/_.harxsh.__/"
+                            target="_blank"><i
+                                class="fab fa-instagram"></i></a><i
+                            class="fab fa-facebook"></i></li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+        
+    </body>
+</html>
